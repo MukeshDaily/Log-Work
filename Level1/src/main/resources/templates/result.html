@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Work Logged!</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Result</h1>
+    <p th:text="'title: ' + ${work.title}" />
+    <p th:text="'content: ' + ${work.content}" />
+    <a href="/postwork">Submit Another Work Log</a>
+</body>
+</html>
